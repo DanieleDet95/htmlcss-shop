@@ -1,0 +1,66 @@
+/* Impostazione reset iniziale */
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Fine reset */
+
+/* Impostazione contenitore generale */
+.container{
+  position: relative;
+  left: 25%;
+  background-color: white;
+  position: relative;
+  margin: 5px;
+  margin-top: 20px;
+  width: 640px;
+  height: 525px;
+}
+/* Impostazione contenitore generale */
+
+/* Impostazione generale immagini */
+img{
+  width: 200px;
+  margin: 5px;
+}
+/* Fine impostazione generale immagini */
+
+/* Impostazione scheda prodotto */
+.scheda{
+  position: relative;
+  display: inline-block;
+}
+/* Fine impostazione scheda prodotto */
+
+/* Impostazione sconto prodotto */
+.sconto{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 13px;
+  width: 30px;
+}
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+}
+/* Fine impostazione sconto prodotto */
+
+/* Impostazione cuore */
+.cuore{
+  position: absolute;
+  bottom: 12px;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  display: none;
+  left: 0;
+}
+.scheda:hover .cuore{
+  display: inline-block;
+}
+/* Fine impostazione cuore */
